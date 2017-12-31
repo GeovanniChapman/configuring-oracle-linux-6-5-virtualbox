@@ -6,8 +6,8 @@ Installing (virtualbox guest additions)
 su -
 #password
 yum remove kernel-headers
-
 cd /etc/yum.repos.d
+rm -fr public-yum-ol6.repo
 wget http://public-yum.oracle.com/public-yum-ol6.repo
 uname -a
 vi public-yum-ol6.repo

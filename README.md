@@ -2,6 +2,7 @@
 
 Installing (virtualbox guest additions)
 
+`````
 yum remove kernel-headers
 
 cd /etc/yum.repos.d
@@ -17,10 +18,12 @@ gpgcheck=1
 enabled=0 #change to 1
 
 kill -9 $(ps aux |grep -i yum |awk {'print $2'}) && yum -y install kernel-uek-devel-$(uname -r)
-
+`````
 
 
 optional
+`````
 kill -9 $(ps aux |grep -i yum |awk {'print $2'}) && yum update -y
 yum install gcc
 yum install kernel-uek-devel -y
+`````

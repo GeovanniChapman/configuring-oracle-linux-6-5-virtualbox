@@ -1,6 +1,6 @@
 # Configuring oracle linux 6.5 virtualbox
 
-Install (virtualbox guest additions)
+Installing (virtualbox guest additions)
 
 yum remove kernel-headers
 

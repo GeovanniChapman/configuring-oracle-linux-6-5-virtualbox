@@ -21,7 +21,7 @@ enabled=0 #change to 1
 
 yum -y install kernel-uek-devel-$(uname -r)
 `````
-Note: if yum is been used by other proccess you can kill it
+Note: if yum is been used by another process you can kill it
 `````
 kill -9 $(ps aux |grep -i yum |awk {'print $2'})
 `````

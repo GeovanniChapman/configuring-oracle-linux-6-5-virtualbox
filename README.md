@@ -3,6 +3,8 @@
 Installing (virtualbox guest additions)
 
 `````
+su -
+#password
 yum remove kernel-headers
 
 cd /etc/yum.repos.d
